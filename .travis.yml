@@ -8,9 +8,9 @@ before_install:
 - tools/travis-scripts/before-install.sh
 
 # blocklist
-# branches:
-#  except:
-#    - develop
+branches:
+  only:
+    - v2.0-release
 
 env:
   global:
